@@ -1,28 +1,126 @@
 <!DOCTYPE html>
-<!-- Coded by Paliy Rostyslav. e-mail: paliy1984@gmail.com. skype: ros.coprandos !!!SYLB!!!-->
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gulp Starter Template</title>
+    <title>Тестовое_html_css</title>
     <!-- Site description-->
     <meta name="description" content="...">
     <!-- STYLE CSS-->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
-    <!--[if lt IE 9]><script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script><script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 </head>
 
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <!-- main script-->
-    <script src="js/main.js"></script>
+    <div class="wrapper">
 
-    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/4.0.1/placeholders.min.js"></script><![endif]-->
+        <header class="main-header">
+            <div class="header-logo-tel container row">
+                <div class="header-logo">
+                    <a href="index.html"><img class="header-logo__img" src="./img/header-logo.png" width="273" height="100" alt="Название компании"></a>
+                </div>
+                <div class="header-tel">
+                    <a class="header-tel__link" href="tel:+380007777777">+38(000) 777-77-77</a>
+                    <a class="header-tel__link" href="tel:+380008888888">+38(000) 888-88-88</a>
+                </div>
+            </div>
+        </header>
+
+        <nav class="main-menu">
+            <div class="container">
+                <ul class="main-menu__list">
+                    <li class="main-menu__item"><a class="main-menu__link" href="index.html">Главная</a></li>
+                    <li class="main-menu__item"><a class="main-menu__link" href="#">Каталог</a></li>
+                    <li class="main-menu__item"><a class="main-menu__link" href="#">Доставка и оплата</a></li>
+                    <li class="main-menu__item"><a class="main-menu__link" href="#">Прайс-лист</a></li>
+                    <li class="main-menu__item"><a class="main-menu__link" href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="content">
+            
+            <section class="main-slider">
+                <div class="main-slider__item"></div>
+                <div class="main-slider__item"></div>
+                <div class="main-slider__item"></div>
+            </section>
+
+            <section class="main-content">
+                <div class="container row">
+
+                    <aside class="main-news">
+                        <h2 class="news__header">Новости</h2>
+                        <article class="news-article">
+                            <h2 class="news-article__header">14 сентября 2013 г.</h2>
+                            <p class="news-article__text">Редизайн веб-сайта архитектурного<br>бюро.</p>
+                        </article>
+                        <article class="news-article">
+                            <h2 class="news-article__header">14 сентября 2013 г.</h2>
+                            <p class="news-article__text">Раскрутка интернет-магазина декора-<br>тивных стикеров и виниловых наклеек.</p>
+                        </article>
+                        <article class="news-article">
+                            <h2 class="news-article__header">14 сентября 2013 г.</h2>
+                            <p class="news-article__text">SEO-продвижение сайта поставщика<br>дизель генераторов.</p>
+                        </article>
+                        <article class="news-article">
+                            <h2 class="news-article__header">14 сентября 2013 г.</h2>
+                            <p class="news-article__text">Поисковое продвижение веб-сайта<br>поставщика гидрооборудования.</p>
+                        </article>
+                            <a class="news-article__link" href="#">Архив новостей</a>
+                    </aside>
+
+                    <div class="main-about">
+                        <h1 class="main-about__heading">Компания «Придумайте сами»</h1>
+                        <p class="main-about__text">Компания «Придумайте сами» существует более 6 лет, за это время мы принимали<br>участие в разработке более чем 700 сайтов, поэтому можем уверенно называть себя<br>профессионалами. На данный момент наш коллектив состоит из более
+                            чем 30 сотруд- <br>ников работающих в двух офисах в разных городах.</p>
+                        <p class="main-about__text">Одним из основных направлений работ нашей компании является поисковое продви-<br>жение сайтов, на данной момент мы работаем с более чем 150 постоянными клиентами<br>по более чем 11 000 поисковым запросам. При этом в работе основной
+                            акцент мы<br>делаем на качестве работ, а так же применяем собственные уникальные разработки в<br>области SEO продвижения. На данный момент отдел SEO состоит из 9 человек под<br>руководством ведущего специалиста, преимущественно
+                            работающих в нашем главном<br>офисе.</p>
+                        <p class="main-about__text">Наша компания является золотым сертифицированным партнёром «бла-бла-бла»<br>(сертификат № 33939 с 2007 по 2013), что ещё раз подтверждает квалификацию наших<br>сотрудников. В январе 2013 мы стали лидерами продаж продуктов «бла-бла-бла»
+                            и<br>вошли в число лучших разработчиков сайтов мира. Все специалисты занимающиеся<br>изготовлением сайтов проходят обязательную сертификацию «бла-бла-бла» в течении<br>первых 6 месяцев работы в компании, после чего продолжают
+                            непрерывно поддержи- <br>вать и развивать свои профессиональные навыки.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="main-footer">
+            <div class="container row">
+
+                <div class="main-footer-copy">
+                    <p class="footer-copy__text">© 2012–2013 ЗАО «Компания» </p>
+                    <a class="footer-copy__link" href="mailto:info@name.com.ua">info@name.com.ua</a>
+                </div>
+
+                <div class="main-footer-nav">
+                    <ul class="footer-nav__list">
+                        <li class="footer-nav__item"><a class="footer-nav__link" href="index.html">Главная</a></li>
+                        <li class="footer-nav__item"><a class="footer-nav__link" href="#">Каталог</a></li>
+                        <li class="footer-nav__item"><a class="footer-nav__link" href="#">Доставка и оплата</a></li>
+                        <li class="footer-nav__item"><a class="footer-nav__link" href="#">Прайс-лист</a></li>
+                        <li class="footer-nav__item"><a class="footer-nav__link" href="#">Контакты</a></li>
+                    </ul>
+                </div>
+
+                <div class="main-footer-devel">
+                    <a class="footer-devel__link" href="#">Разработка сайта</a>
+                    <p class="footer-devel__text">компания «Придумайте сами»</p>
+                </div>
+
+            </div>
+        </footer>
+
+        <!--jQuery-->
+        <script src="js/jquery.min.js"></script>
+        <!--slick carousel-->
+        <script src="js/slick.min.js"></script>
+        <!-- main script-->
+        <script src="js/main.js"></script>
+
+    </div>
 </body>
-
 </html>

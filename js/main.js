@@ -1,1 +1,1 @@
-"use strict";
+"use strict";$(document).ready(function(){$(".main-slider").slick({dots:!1,arrows:!1,autoplay:!0,autoplaySpeed:2e3})});
